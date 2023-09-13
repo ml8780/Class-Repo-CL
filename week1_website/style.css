@@ -30,21 +30,16 @@ a {
 .top_links {
     text-align: right;
     margin: 0 7vw;
-
 }
 
 .heading {
     text-align: center;
-}
-
-h1 {
     padding: 1.5em;
     font-family: 'Black Ops One', cursive;
     font-size: 200px;
     text-align: center;
     color: #942721;
 }
-
 
 .desc {
     padding: 1em;
@@ -127,6 +122,59 @@ h1 {
 
     90% {
         transform: translateY(70vh);
+    }
+
+}
+
+
+@media(max-width: 1400px) {
+
+    .heading {
+        text-align: center;
+        padding: 1.5em;
+        font-family: 'Black Ops One', cursive;
+        font-size: 150px;
+        text-align: center;
+        color: #942721;
+    }
+
+    .main {
+        margin: 500px 10px 10px 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+}
+
+@media(max-width: 1050px) {
+
+    .heading {
+        text-align: center;
+        padding: 1.5em;
+        font-family: 'Black Ops One', cursive;
+        font-size: 100px;
+        text-align: center;
+        color: #942721;
+    }
+
+    .main {
+        margin: 500px 10px 10px 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    body {
+        margin: 50px;
+        background-color: rgb(255, 255, 255);
+        background-image: url(https://images.news18.com/ibnlive/uploads/2021/08/1627795239_national-mountain-climbing-day.jpg);
+        background-size: 1050px;
     }
 
 }
